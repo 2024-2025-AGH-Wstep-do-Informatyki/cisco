@@ -6,7 +6,7 @@ This project is a labyrinth game with multiple levels. Graphic design of this ga
 ## Authors
 
 * **Natalia Ozonek** - *Graphic design and initial coding*
-* **Jakub Dusza** - *.*
+* **Jakub Dusza** - *Coding and basic graphic design*
 * **Kacper Rothkegel** - *.*
 
 
