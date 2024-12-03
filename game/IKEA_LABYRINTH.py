@@ -15,7 +15,7 @@ def levels():
     while True:
         LEVELS_MOUSE_POS = pygame.mouse.get_pos()
 
-        SCREEN.fill((251,218,12))
+        SCREEN.fill((250,218,12))
 
         LEVELS_TEXT = get_font(55).render("", True, "#0057ad")
         LEVELS_RECT = LEVELS_TEXT.get_rect(center=(640, 260))
