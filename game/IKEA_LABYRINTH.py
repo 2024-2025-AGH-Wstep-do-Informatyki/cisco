@@ -50,12 +50,12 @@ def level_one():
     while True:
         LEVELONE_MOUSE_POS = pygame.mouse.get_pos()
 
-        SCREEN.fill((251,218,12))
-        LEVELONE_TEXT = get_font(55).render("This is level ONE", True, "#0057ad")
+        SCREEN.fill((0,87,173))
+        LEVELONE_TEXT = get_font(55).render("This is level ONE", True, "#fbda0c")
         LEVELONE_RECT = LEVELONE_TEXT.get_rect(center=(640, 260))
         SCREEN.blit(LEVELONE_TEXT, LEVELONE_RECT)
 
-        LEVELONE_BACK = Button(image=None, pos=(640,400), text_input="BACK", font=get_font(90),base_color="#0057ad", hover_color="white")
+        LEVELONE_BACK = Button(image=None, pos=(640,400), text_input="BACK", font=get_font(90),base_color="#fbda0c", hover_color="white")
 
         LEVELONE_BACK.ChangeColor(LEVELONE_MOUSE_POS)
         LEVELONE_BACK.update(SCREEN)
@@ -73,12 +73,12 @@ def level_two():
     while True:
         LEVELTWO_MOUSE_POS = pygame.mouse.get_pos()
 
-        SCREEN.fill((251,218,12))
-        LEVELTWO_TEXT = get_font(55).render("This is level TWO", True, "#0057ad")
+        SCREEN.fill((0,87,173))
+        LEVELTWO_TEXT = get_font(55).render("This is level TWO", True, "#fbda0c")
         LEVELTWO_RECT = LEVELTWO_TEXT.get_rect(center=(640, 260))
         SCREEN.blit(LEVELTWO_TEXT, LEVELTWO_RECT)
 
-        LEVELTWO_BACK = Button(image=None, pos=(640,400), text_input="BACK", font=get_font(90),base_color="#0057ad", hover_color="white")
+        LEVELTWO_BACK = Button(image=None, pos=(640,400), text_input="BACK", font=get_font(90),base_color="#fbda0c", hover_color="white")
 
         LEVELTWO_BACK.ChangeColor(LEVELTWO_MOUSE_POS)
         LEVELTWO_BACK.update(SCREEN)
@@ -96,12 +96,12 @@ def level_three():
     while True:
         LEVELTHREE_MOUSE_POS = pygame.mouse.get_pos()
 
-        SCREEN.fill((251,218,12))
-        LEVELTHREE_TEXT = get_font(55).render("This is level THREE", True, "#0057ad")
+        SCREEN.fill((0,87,173))
+        LEVELTHREE_TEXT = get_font(55).render("This is level THREE", True, "#fbda0c")
         LEVELTHREE_RECT = LEVELTHREE_TEXT.get_rect(center=(640, 260))
         SCREEN.blit(LEVELTHREE_TEXT, LEVELTHREE_RECT)
 
-        LEVELTHREE_BACK = Button(image=None, pos=(640,400), text_input="BACK", font=get_font(90),base_color="#0057ad", hover_color="white")
+        LEVELTHREE_BACK = Button(image=None, pos=(640,400), text_input="BACK", font=get_font(90),base_color="#fbda0c", hover_color="white")
 
         LEVELTHREE_BACK.ChangeColor(LEVELTHREE_MOUSE_POS)
         LEVELTHREE_BACK.update(SCREEN)
