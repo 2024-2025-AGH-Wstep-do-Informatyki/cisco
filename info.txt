@@ -1,1 +1,1 @@
-plik testowy
+** plik testowy info.txt **
